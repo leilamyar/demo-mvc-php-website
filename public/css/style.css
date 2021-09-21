@@ -7,15 +7,20 @@
     --pink: #f9abcc;
 }
 
-html,
-body {
+* {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+}
+
+html,
+body {
     font-family: var(--ff);
     height: 100vh;
     width: 100vw;
     overflow: hidden; 
+    background-color: var(--black);
+    color: var(--white);
 }
 
 a {
@@ -27,11 +32,17 @@ ul {
     list-style: none;
 }
 
+nav, .page-section {
+    padding: 1.2rem;
+    margin: 1.2rem;
+}
+
 .main-ttl {
     width: 10ch;
 }
 
 .main-c {
+    padding: 1.2rem;
     height: 100%;
     display: flex;
     flex-flow: column nowrap;
@@ -48,14 +59,8 @@ ul {
     margin-left: auto;
 }
 
-nav {
-    background-color: var(--black);
-    color: var(--white);
-    padding: 1.2rem;
-}
 
 .gallery-c {
-    background-color: var(--black);
     width: 100%;
     display: flex;
     flex-flow: row wrap;
@@ -109,10 +114,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--black);
 }
 
 /* From https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/ */
+
+/* Another (better) one here : https://significa.co/blog/css-only-slider */
 
 .slider {
     width: 300px;
