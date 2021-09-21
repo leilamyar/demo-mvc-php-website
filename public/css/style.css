@@ -155,7 +155,10 @@ nav, .page-section {
     font-size: 100px;
 }
 
-img {
+#slide-1>img,
+#slide-2>img,
+#slide-3>img
+{
     object-fit: cover;
     position: absolute;
     top: 0;
