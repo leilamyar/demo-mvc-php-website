@@ -1,0 +1,1 @@
+<h2 class="red">An error occured. Please start again later.</h2>

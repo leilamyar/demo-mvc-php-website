@@ -1,0 +1,92 @@
+:root {
+    --ff: 'Be Vietnam Pro', sans-serif;
+    --black: #121212;
+    --white: #fff;
+    --red: #FF3232;
+    --light-red: #FF7F7F;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--ff);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.main-ttl {
+    width: 10ch;
+}
+
+.flex-c {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.push-right {
+    margin-left: auto;
+}
+
+nav {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 1.2rem;
+}
+
+.gallery-c {
+    background-color: var(--black);
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.gallery-c img {
+    width: 33%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* do smth with nav */
+    .gallery-c img {
+        width: 100%;
+    }
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+
+ } 
+
+ .res {
+     color: var(--red);
+     background-color: var(--light-red);
+ }
+
+ .welcome-msg {
+     font-weight: bolder;
+ }
